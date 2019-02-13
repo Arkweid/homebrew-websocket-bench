@@ -2,9 +2,9 @@
 class WebsocketBench < Formula
   desc "CLI interface for benchmark AnyCable"
   homepage "https://github.com/Arkweid/websocket-bench"
-  url "https://github.com/Arkweid/websocket-bench/releases/download/v0.1.1/websocket-bench_0.1.1_MacOS_x86_64.tar.gz"
-  version "0.1.1"
-  sha256 "afa929068284afa8a7835f95d1a8521ae64d88d0208ef14cfa380f1e96924c69"
+  url "https://github.com/Arkweid/websocket-bench/releases/download/v0.1.3/websocket-bench_0.1.3_MacOS_x86_64.tar.gz"
+  version "0.1.3"
+  sha256 "9d5cffda2010f51f4a8c98ff3832aa5f3cb06df91cc72b3469f771851f1b5f22"
 
   def install
     bin.install "websocket-bench"
