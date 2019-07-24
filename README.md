@@ -1,6 +1,7 @@
 # homebrew-websocket-bench
+
 Brew formula for websocket-bench
 
 ```bash
-brew install Arkweid/websocket-bench/websocket-bench
+brew install anycable/websocket-bench/websocket-bench
 ```
