@@ -2,16 +2,16 @@
 class WebsocketBench < Formula
   desc "CLI interface for benchmark AnyCable"
   homepage "https://github.com/anycable/websocket-bench"
-  version "0.2.0"
+  version "0.2.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/anycable/websocket-bench/releases/download/v0.2.0/websocket-bench_0.2.0_MacOS_x86_64.tar.gz"
-    sha256 "ee6d1e7d43bed98c3b73e8e3352a5d32a542204bc58d1e39b4dbec4faafb891c"
+    url "https://github.com/anycable/websocket-bench/releases/download/v0.2.1/websocket-bench_0.2.1_MacOS_x86_64.tar.gz"
+    sha256 "bf864de48e7fd99ce19e3cb515c4ba7f61851d3ea76272f0fa90dafb37f1340a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/anycable/websocket-bench/releases/download/v0.2.0/websocket-bench_0.2.0_Linux_x86_64.tar.gz"
-      sha256 "d3da1d8ffaae42f6aa55f08e66604b297798b049fc853763a8e51abbac79cf8c"
+      url "https://github.com/anycable/websocket-bench/releases/download/v0.2.1/websocket-bench_0.2.1_Linux_x86_64.tar.gz"
+      sha256 "ad2d19749abfbd0a6b4786c763f76505113b9359bed301b039f93b5dbe2523c4"
     end
   end
 
